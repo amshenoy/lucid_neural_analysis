@@ -9,7 +9,7 @@ Model Folder
 The model folder contains the neural model used for classification. The neural model can be viewed with Tensorboard with its respective accuracy and loss graphs.
 ![Tensorflow](https://lh3.googleusercontent.com/hIViPosdbSGUpLmPnP2WqL9EmvoVOXW7dy6nztmY5NZ9_u5lumMz4sQjjsBZ2QxjyZZCIPgucD2rhdL5uR7K0vLi09CEJYY=s688)
 
-LNA Test
+LNA API
 --------
 ```
 from lucid_neural.analysis import predict as classify
