@@ -1,14 +1,24 @@
+# LUCID Neural Analysis
+This analysis program was made so that various institutes such as CERN@School and the Institute for Research in Schools can use this program for analysing their data from Timepix or Medipix particle detectors.
 
 Model Folder
 -------------
 Contains the neural model used for classification.
 The neural model can be viewed with Tensorboard with its respective accuracy and loss graphs.
 
-lucid_utils Folder
-------------------
-This is an updated version of lucid_utils.
-Future revisions however, should probably be downloaded from the lucid_utils repository.
+LNA Test
+--------
+```
+from lucid_neural.analysis import predict as classify
 
-tf_lucid_predict.py
--------------------
-This is the file that allows the usage of the neural model. To analyse a file simply change the XYC url.
+blob = [[0,0],[0,1],[1,0],[1,1],[0,2],[1,2],[0,3],[1,3]]
+
+print(classify(blob))
+>>> beta
+```
+
+Dependencies
+------------
+	- Tensorflow
+	- LUCID Utils
+	- Numpy
