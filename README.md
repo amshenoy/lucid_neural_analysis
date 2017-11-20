@@ -25,3 +25,7 @@ Dependencies
 	- Tensorflow
 	- LUCID Utils
 	- Numpy
+
+Research & Development
+----------------------
+https://www.scribd.com/document/356051031/Neural-Networks-for-Particle-Analysis-EPQ?secret_password=aBbTCmd88gkOCFan899j
